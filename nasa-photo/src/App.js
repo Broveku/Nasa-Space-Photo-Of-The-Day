@@ -1,10 +1,19 @@
+import React from "react"; 
+import { Routes, Route } from 'react-router-dom'
+
+import './App.css'
+
+import NasaAPOD from "./components/NasaAPOD/NasaAPOD";
+import ParticlesBg from 'particles-bg'
 
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-       <h1>Hello, World</h1>
-      </header>
+    <div>
+      <NasaAPOD/>
+
+      <ParticlesBg color={["#ffffff", "#none"]} type="cobweb" bg={true} />
     </div>
   );
 }
