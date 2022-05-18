@@ -10,11 +10,11 @@
     border: 10%;
     padding-left:10%;
     padding-right:10%;
-    background-color: #CDCDE0;
+    background-color: #0b132b;
     border-radius: 10px;
-    border-color: #B4B4C7;
+    border-color: #6fffe9;
     border-style: double;
-    border-width: 20px;
+    border-width: 10px;
 }
 
 .nasa_apod{
@@ -26,7 +26,7 @@
 }
 
 h1, h2, h3{
-  color: #B1365B;
+  color: #FAB6A2;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
 
 }

@@ -14,6 +14,7 @@ function App() {
       <NasaAPOD/>
 
       <ParticlesBg color={["#ffffff", "#none"]} type="cobweb" bg={true} />
+
     </div>
   );
 }
